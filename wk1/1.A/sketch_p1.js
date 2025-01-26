@@ -21,24 +21,9 @@ function draw() {
   //head
   ellipse(500, 150, 175);
   //left arm 
-  stroke(51, 51, 0);
+  stroke(mycolor);
   strokeWeight(15);
   line(200, 200, 375, 350);
   //right arm
   line(800, 200, 625, 350);
-  //eyes
-  stroke(0);
-  strokeWeight(25);
-  //left eye
-  point(450, 125);
-  //right eye
-  point (550, 125);
-  //mouth 
-  noFill();
-  strokeWeight(10);
-  arc(500, 190, 100, 20, 0, HALF_PI);
-  //nose
-  stroke(mycolor);
-  fill(mycolor);
-  triangle(490, 140, 550, 160, 490, 170);
 }
