@@ -25,19 +25,12 @@ const myGameArray  = [
     }
 ];
 
-//Prompt for user to pick number
-let promptResponse = prompt("I have 3 games in my collection. Pick a number between 1 and 3 and I'll tell you about that game");
-
-promptResponse = Number(promptResponse);
+// Prompt for user to pick number
+const gameInput = window.prompt("I have 3 games in my collection. Pick a number between 1 and 3 and I'll tell you about that game");
 
 // Validate input number
-if (promptResponse >= 1 && promptResponse <= 3) {
+if (gameInput >= 1 && gameInput <= 3) {
 
 // Display information about the input game
- alert("You selected " + myGameArray[promptResponse - 1].title + " which is a " + myGameArray[promptResponse - 1].type + " game. I have rated this game " + myGameArray[promptResponse - 1].rating + " out of 5. This game allows " + myGameArray[promptResponse - 1].numberOfPlayers + " players. Here is a brief description: " + myGameArray[promptResponse - 1].shortDescription);
- } 
-
- //invalid input alert
-else {
-alert("Please select a number between 1 and 3.");
-}
+window.alert("You selected " + myGameArray[gameInput - 1].title + " which is a " + myGameArray[gameInput - 1].type + " game. I have rated this game " + myGameArray[gameInput - 1].rating + " out of 5. This game allows " + myGameArray[gameInput - 1].numberOfPlayers + " players. Here is a brief description: " + myGameArray[gameInput - 1].shortDescription);
+};
