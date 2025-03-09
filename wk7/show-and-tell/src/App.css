@@ -1,0 +1,37 @@
+table {
+    max-width: 650px;
+}
+
+td {
+    padding: 5px;
+}
+
+h2 {
+    text-align:center;
+    color: #fe1aa4;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+thead tr {
+    color: #ffffff;
+    background-color: #fe1aa4;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.odd-row {
+    background-color: #ffc8e4;
+}
+
+.even-row{
+    background-color: #FE90C9;
+}
+
+.page {
+   display :flex;
+   align-items: center;
+   flex-direction: column;
+}
