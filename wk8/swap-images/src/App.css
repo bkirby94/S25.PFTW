@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffe3e7;
+}
+
+h2 {
+  font-size: 50px;
+  color: #ed1e79;
+}
+.container {
+  text-align: center;
+  padding: 15px;
+}
+
+button {
+  margin: 15px;
+  font-size: 30px;
+  color: #ffff;
+  background-color: #ed1e79;
+  border-color: #ed1e79;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
