@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 
-const llamaImg = "/llama.jpg";
-const alpacaImg = "/alpaca.jpg";
-const cardImg = "/camelidCard.jpg";
+const llamaImg = "/images/llama.jpg";
+const alpacaImg = "/images/alpaca.jpg";
+const cardImg = "/images/camelidCard.jpg";
 
 function App() {
   const [image, setImage] = useState(cardImg);
