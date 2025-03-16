@@ -1,0 +1,22 @@
+body {
+    background-color: #ffc8e4;
+}
+
+.collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+h2 {
+    text-align:center;
+    color: #fe1aa4;
+    font-family: fantasy;
+    font-size: 30px;
+}
