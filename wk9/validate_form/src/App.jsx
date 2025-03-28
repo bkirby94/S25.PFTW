@@ -11,11 +11,6 @@ function App() {
     favoriteColors: []
   });
 
-  const [errors, setErrors] = useState({
-    firstName: "",
-    lastName: ""
-  });
-
   function handleTextChange(evt) {
     setTextInputs(previousTextInputs => {
       return {
@@ -35,36 +30,13 @@ function App() {
     } else {
       setColors([...colors, event.target.id])
     }
-  }
 
-  function validateInputs() {
-    const newErrors = {};
-
-    if (!textInputs.firstName.trim()) {
-      newErrors.firstName = "First Name is required.";
-    } else if (textInputs.firstName.length < 2) {
-      newErrors.firstName = "First Name must be at least 2 characters.";
-    }
-
-    if (!textInputs.lastName.trim()) {
-      newErrors.lastName = "Last Name is required.";
-    } else if (textInputs.lastName.length < 2) {
-      newErrors.lastName = "Last Name must be at least 2 characters.";
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0; 
   }
 
   function handleSubmit(evt) {
     evt.preventDefault();
-
-    if (!validateInputs()) {
-      return; 
-    }
-
     console.log("Text Inputs: ", textInputs);
-    console.log("Favorite Colors: ", colors);
+    console.log({colors})
   };
 
   return (
@@ -83,7 +55,6 @@ function App() {
               value={textInputs.firstName}
               onChange={handleTextChange}
             />
-            {errors.firstName && <p className="error">{errors.firstName}</p>}
           </div>
 
           <div>
@@ -95,7 +66,6 @@ function App() {
               value={textInputs.lastName}
               onChange={handleTextChange}
             />
-            {errors.lastName && <p className="error">{errors.lastName}</p>}
           </div>
 
           <div>
@@ -173,6 +143,7 @@ function App() {
               onChange={handleCheckbox}
             />
           </label>
+
         </fieldset>
 
         <button type="submit">Submit</button>
@@ -193,3 +164,4 @@ function App() {
 }
 
 export default App;
+
