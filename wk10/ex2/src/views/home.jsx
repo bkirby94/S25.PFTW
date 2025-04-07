@@ -1,16 +1,17 @@
-import musicData from "../assets/music-list.json";
+import { Link, useParams }  from 'react-router-dom';
 
-export function Home () {
-
+export function Home ({songs}) {
     return (
         <div>
             <h1>Music List</h1>
-            {musicData.map((song) => {
+            {songs.map((song) => 
+                (
                 <div key={song.slug}>
                 <img src={song.cover} alt={song.title} />
-                <p><strong>{song.title} by {song.artist}</strong></p>
+                <p><Link to={`/${song.slug}`}><strong>{song.title} by {song.artist}</strong></Link></p>
                 </div>
-            })}
+                )
+            )}
         </div>
     )
 }

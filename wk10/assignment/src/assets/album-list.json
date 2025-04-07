@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1, 
+        "title": "The Fame", 
+        "artist": "Lady Gaga", 
+        "release": "August 19, 2008", 
+        "genre": "Pop", 
+        "havePhysical": true
+    },
+
+    {
+        "id": 2,
+        "title": "...Baby One More Time",
+        "artist": "Britney Spears",
+        "release": "January 12, 1999", 
+        "genre": "Pop",
+        "havePhysical": true
+    },
+
+    {
+        "id": 3,
+        "title": "Slut Pop",
+        "artist": "Kim Petras",
+        "release": "February 11, 2022",
+        "genre": "Dance Pop",
+        "havePhysical": false
+    },
+    
+    {
+        "id": 4,
+        "title": "Planet Her",
+        "artist": "Doja Cat",
+        "release": "June 25, 2021",
+        "genre": "Pop",
+        "havePhysical": true
+    },
+
+    {
+        "id": 5, 
+        "title": "Anti",
+        "artist": "Rihanna",
+        "release": "January 28, 2016",
+        "genre": "Pop",
+        "havePhysical": false
+    },
+
+    {
+        "id": 6,
+        "title": "Short and Sweet",
+        "artist": "Sabrina Carpenter",
+        "release": "August 23, 2024",
+        "genre": "Pop",
+        "havePhysical": false
+    },
+
+    {
+        "id": 7, 
+        "title": "Paris",
+        "artist": "Paris Hilton",
+        "release": "August 14, 2006",
+        "genre": "Pop",
+        "havePhysical": false
+    },
+
+    {
+        "id": 8,
+        "title": "Spice",
+        "artist": "Spice Girls",
+        "release": "November 4, 1996",
+        "genre": "Pop",
+        "havePhysical": true
+    },
+
+    {
+        "id": 9,
+        "title": "Love. Angel. Music. Baby",
+        "artist": "Gwen Stefani",
+        "release": "November 12, 2004",
+        "genre": "Pop",
+        "havePhysical": true
+    }
+]

@@ -1,3 +1,5 @@
+import musicData from "./assets/music-list.json";
+
 import { Link, Route, Routes }  from 'react-router-dom';
 import './App.css';
 import { Home } from "./views/home.jsx";
@@ -7,21 +9,17 @@ function App() {
 
   return (
     <>
-  
     <nav> 
       <ul>
         <li>
           <Link to="/">Go Back Home</Link> 
         </li>
-        <li>
-          {/* Placeholder for additional navigation */}
-        </li>
       </ul>
     </nav>
 
     <Routes>
-      <Route path="/" element= {<Home />} />
-      <Route path=":slug" element= {<Song />} />
+      <Route path="/" element= {<Home songs={musicData} />} />
+      <Route path="/:slug" element= {<Song songs={musicData} />} />
     </Routes>
 
     </>
