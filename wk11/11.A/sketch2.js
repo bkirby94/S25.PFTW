@@ -12,5 +12,5 @@ function draw() {
   stroke("#fe59ae"); 
   strokeWeight(2); 
   ellipse(0, 0, 100, 100); 
-  scaleFactor = max(0.1, 1 + sin(frameCount * 0.05) * 0.5);
+  scaleFactor = max(0.1, 1 + sin(frameCount * 0.08) * 0.3);
 }

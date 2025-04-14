@@ -12,5 +12,5 @@ function draw() {
   stroke("#fe59ae"); 
   strokeWeight(2); 
   rect(-50, -50, 100, 100); 
-  angle += 0.05; 
+  angle += 0.08; 
 }

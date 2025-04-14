@@ -15,6 +15,6 @@ function draw() {
   strokeWeight(2);
   rect(-50, -50, 100, 100); 
   
-  angle += 0.02; 
-  scaleFactor = max(0.1, 1 + sin(frameCount * 0.05) * 0.5);
+  angle += 0.09; 
+  scaleFactor = max(0.1, 1 + sin(frameCount * 0.06) * 0.8);
 }
