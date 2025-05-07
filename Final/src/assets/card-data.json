@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1, 
+        "cardFront": "What is the primary difference in the use of llamas and alpacas by humans?",
+        "cardBack": "Llamas are pack animals, alpacas are used for fiber"
+    },
+    {
+        "id": 2,
+        "cardFront": "Which animal is generally larger, a llama or an alpaca?",
+        "cardBack": "Llama"
+    },
+    {
+        "id": 3,
+        "cardFront": "Where are llamas and alpacas originally from?",
+        "cardBack": "South America"
+    },
+    {
+        "id": 4,
+        "cardFront": "What is the main difference in appearance between llamas or an alpacas?",
+        "cardBack": "Llamas have banana-shaped ears and longer faces"
+    },
+    {
+        "id": 5,
+        "cardFront": "What kind of fiber do alpacas produce?",
+        "cardBack": " A soft, warm fiber similar to wool"
+    },
+    {
+        "id": 6,
+        "cardFront": "Which of the two animals—llama or alpaca—is more commonly used as a guard animal due to its confident and protective nature?",
+        "cardBack": "Llama"
+    }
+
+]
